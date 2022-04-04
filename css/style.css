@@ -4,20 +4,13 @@
     padding: 0;
 }
 
-#stage{
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-#stage h1{
-    width: 100%;
-    margin: 10px;
+#stage{
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     padding: 10px;
     background-color: lawngreen;

@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#stage{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stage h1{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: lawngreen;
+    border-radius: 10px;
+    font-size: 4rem;
+    font-family: Ubuntu, sans-serif;
+}

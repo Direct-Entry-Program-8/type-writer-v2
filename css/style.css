@@ -18,3 +18,13 @@
     font-size: 4rem;
     font-family: Ubuntu, sans-serif;
 }
+
+#stage:after{
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 4rem;
+    vertical-align: text-top;
+    margin-left: 5px;
+    background-color: black;
+}

@@ -15,7 +15,7 @@
     padding: 10px;
     background-color: lawngreen;
     border-radius: 10px;
-    font-size: 4rem;
+    font-size: calc(1vw * 1.7 * 4);
     font-family: Ubuntu, sans-serif;
 }
 
@@ -23,7 +23,7 @@
     content: '';
     display: inline-block;
     width: 20px;
-    height: 4rem;
+    height: calc(1vw * 1.7 * 4);
     vertical-align: text-top;
     margin-left: 5px;
     background-color: black;
